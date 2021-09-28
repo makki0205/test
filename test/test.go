@@ -1,10 +1,5 @@
 package test
 
-import (
-	"fmt"
-	"log"
-)
-
 type User struct {
 	Name       string
 	NameLength int
@@ -22,13 +17,6 @@ func Lesson1(names []string) Users {
 	return res
 }
 func Lesson2(n int) {
-	log.Println("start")
-	for i := 1; i < n; i++ {
-		for j := 0; j < i; j++ {
-			fmt.Print("■")
-		}
-		log.Println("")
-	}
 
 }
 
@@ -43,5 +31,5 @@ type Coin struct {
 }
 
 func Lesson3(n int) Coin {
-	panic("hoge")
+
 }
