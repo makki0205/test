@@ -28,7 +28,7 @@ func TestLesson1(t *testing.T) {
 					NameLength: 5,
 				},
 				{
-					Name:       "Abbie",
+					Name:       "Cheryl",
 					NameLength: 6,
 				},
 			},
@@ -101,8 +101,8 @@ func TestLesson3(t *testing.T) {
 				FiveHundred: 0,
 				hundred:     3,
 				Fifty:       0,
-				Ten:         5,
-				Five:        0,
+				Ten:         4,
+				Five:        1,
 			},
 		},
 		{
@@ -116,7 +116,8 @@ func TestLesson3(t *testing.T) {
 				hundred:     3,
 				Fifty:       1,
 				Ten:         2,
-				Five:        2,
+				Five:        0,
+				One:         2,
 			},
 		},
 	}

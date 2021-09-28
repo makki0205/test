@@ -20,6 +20,7 @@ type Coin struct {
 	Fifty       int
 	Ten         int
 	Five        int
+	One         int
 }
 
 func Lesson3(n int) Coin {
